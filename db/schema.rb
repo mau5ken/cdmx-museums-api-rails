@@ -16,6 +16,8 @@ ActiveRecord::Schema.define(version: 2020_09_05_062232) do
   enable_extension "plpgsql"
 
   create_table "museums", force: :cascade do |t|
+    t.string "museum_name"
+    t.string "address"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
