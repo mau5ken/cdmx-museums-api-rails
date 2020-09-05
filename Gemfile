@@ -10,6 +10,8 @@ gem 'puma', '~> 3.11'           # Use Puma as the app server
 gem 'bootsnap', '>= 1.1.0', require: false  # Reduces boot times through caching; required in config/boot.rb
 gem 'rack-cors'                 # Use Rack CORS for handling Cross-Origin Resource Sharing
 gem 'nokogiri'
+gem 'pg', '>= 0.18', '< 2.0'  # Use postgresql as the database for Active Record
+gem 'mechanize'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
