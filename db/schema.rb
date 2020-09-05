@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2020_09_05_062232) do
 
   create_table "museums", force: :cascade do |t|
     t.string "museum_name"
-    t.string "address"
+    t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
